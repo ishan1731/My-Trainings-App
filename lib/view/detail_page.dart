@@ -9,6 +9,8 @@ class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
+
       appBar: AppBar(
         title: Text(training.title),
         backgroundColor: Colors.white,
@@ -150,7 +152,7 @@ class DetailPage extends StatelessWidget {
                   ),
                   child: Text(
                     "Register Now",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold,color: Colors.white),
                   ),
                 ),
               ),

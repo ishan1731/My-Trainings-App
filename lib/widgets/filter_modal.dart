@@ -9,6 +9,7 @@ void showFilterModal(BuildContext context, TrainingController controller) {
   showModalBottomSheet(
     isScrollControlled: true,
     context: context,
+    backgroundColor: Colors.white,
     builder: (context) {
       String query = '';
       return Padding(
@@ -49,7 +50,7 @@ void showFilterModal(BuildContext context, TrainingController controller) {
             ),
             Divider(
               color: Colors.grey.shade300,
-              height: 1,
+              height: 5,
             ),
             FilterSelection(),
 

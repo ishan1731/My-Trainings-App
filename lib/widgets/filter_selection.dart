@@ -36,7 +36,7 @@ class _FilterSelectionState extends State<FilterSelection> {
                       padding: EdgeInsets.only(left: 30),
                       height: 40,
                       decoration: BoxDecoration(
-                        color: Color(0xffe1e1e1),
+                        color: Color(0x72e1e1e1),
                         border: controller.trainingSort[index].isSelected
                             ? Border(
                                 left: BorderSide(
@@ -67,34 +67,7 @@ class _FilterSelectionState extends State<FilterSelection> {
                   flex: 3,
                   child: Column(
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 8.0),
-                        child: TextField(
-                          decoration: InputDecoration(
-                            hintText: "Search Location",
-                            suffixIcon:
-                                controller.locationController.text.isNotEmpty
-                                    ? IconButton(
-                                        icon: Icon(Icons.close),
-                                        onPressed: () {
-                                          controller.locationController
-                                              .clear(); // Clear text
-                                          FocusScope.of(context)
-                                              .unfocus(); // Close the keyboard
-                                        },
-                                      )
-                                    : null,
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(8.0),
-                              borderSide:
-                                  BorderSide(color: Colors.grey, width: 1.0),
-                            ),
-                          ),
-                          onChanged: (value) {
-                            controller.locationSearchQuery.value = value;
-                          },
-                        ),
-                      ),
+
                     ],
                   ),
                 )

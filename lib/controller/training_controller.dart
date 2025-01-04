@@ -15,7 +15,9 @@ class TrainingController extends GetxController {
       discountprice: "\$825",
       speaker: 'Keynote Speaker',
       imageUrl: "assets/images/tranning1.jpg",
-      description: "Comprehensive training for Safe Scrum Master.",
+      description: "Comprehensive training for Safe Scrum Master. This course covers "
+          "advanced principles of Agile methodologies and their application in enterprise-level projects. "
+          "Learn the necessary tools and techniques to successfully implement the SAFe framework for Scrum teams.",
       user: User(
         name: 'Helen Gribble',
         image: "assets/images/profile1.jpg",
@@ -31,7 +33,8 @@ class TrainingController extends GetxController {
       discountprice: "\$700",
       speaker: 'Certified Agile Trainer',
       imageUrl: "assets/images/tranning2.jpg",
-      description: "Learn the basics of Agile methodology.",
+      description: "Learn the basics of Agile methodology. This course is designed for professionals looking to understand the "
+          "core principles of Agile frameworks such as Scrum and Kanban. Learn how to increase project efficiency and improve team collaboration.",
       user: User(
         name: 'John Smith',
         image: "assets/images/profile2.jpg",
@@ -47,7 +50,8 @@ class TrainingController extends GetxController {
       discountprice: "\$800",
       speaker: 'DevOps Consultant',
       imageUrl: "assets/images/tranning3.jpg",
-      description: "Introduction to DevOps practices and tools.",
+      description: "Introduction to DevOps practices and tools. This training covers continuous integration and continuous deployment (CI/CD) "
+          "systems, automation of the software delivery process, and the role of collaboration between development and operations teams.",
       user: User(
         name: 'Emily Brown',
         image: "assets/images/profile3.jpg",
@@ -63,7 +67,8 @@ class TrainingController extends GetxController {
       discountprice: "\$900",
       speaker: 'Product Owner Expert',
       imageUrl: "assets/images/tranning4.webp",
-      description: "Certification course for aspiring product owners.",
+      description: "Certification course for aspiring product owners. Understand the role of a Product Owner in Agile frameworks, "
+          "master techniques to prioritize features, and learn to work with Scrum teams to deliver high-value products.",
       user: User(
         name: 'Michael Davis',
         image: "assets/images/profile4.jpg",
@@ -79,7 +84,8 @@ class TrainingController extends GetxController {
       discountprice: "\$750",
       speaker: 'Agile Practitioner',
       imageUrl: "assets/images/tranning5.webp",
-      description: "Hands-on workshop on Kanban practices.",
+      description: "Hands-on workshop on Kanban practices. Learn how to apply Kanban in your teams to manage workflows more effectively, "
+          "reduce cycle times, and increase productivity. Practical sessions with real-life scenarios and case studies.",
       user: User(
         name: 'Laura Wilson',
         image: "assets/images/profile5.jpg",
@@ -95,7 +101,8 @@ class TrainingController extends GetxController {
       discountprice: "\$950",
       speaker: 'Leadership Coach',
       imageUrl: "assets/images/tranning6.jpg",
-      description: "Develop leadership skills for Agile teams.",
+      description: "Develop leadership skills for Agile teams. This course is designed for leaders and managers to adopt an Agile mindset, "
+          "develop collaborative skills, and enhance team performance using Agile principles.",
       user: User(
         name: 'Chris Johnson',
         image: "assets/images/profile6.jpg",
@@ -111,7 +118,8 @@ class TrainingController extends GetxController {
       discountprice: "\$850",
       speaker: 'Scrum Master',
       imageUrl: "assets/images/tranning7.jpg",
-      description: "Scrum practices tailored for development teams.",
+      description: "Scrum practices tailored for development teams. Learn how developers can apply Scrum methodologies to enhance "
+          "productivity and improve the development cycle with sprint planning, backlog refinement, and sprint reviews.",
       user: User(
         name: 'Karen Lee',
         image: "assets/images/profile7.jpg",
@@ -127,7 +135,8 @@ class TrainingController extends GetxController {
       discountprice: "\$650",
       speaker: 'Team Coach',
       imageUrl: "assets/images/tranning8.jpg",
-      description: "Enhance team performance with effective retrospectives.",
+      description: "Enhance team performance with effective retrospectives. Learn how to conduct retrospectives that drive continuous "
+          "improvement and create action plans that lead to better team dynamics, performance, and collaboration.",
       user: User(
         name: 'David Miller',
         image: "assets/images/profile8.webp",
@@ -143,7 +152,8 @@ class TrainingController extends GetxController {
       discountprice: "\$1,100",
       speaker: 'Agile Transformation Coach',
       imageUrl: "assets/images/tranning9.jpg",
-      description: "Advanced coaching techniques for Agile transformation.",
+      description: "Advanced coaching techniques for Agile transformation. This course dives deep into the strategies used to coach "
+          "organizations through Agile transformations, with a focus on leadership, organizational change, and team coaching.",
       user: User(
         name: 'Sophia Green',
         image: "assets/images/profile9.webp",
@@ -159,7 +169,8 @@ class TrainingController extends GetxController {
       discountprice: "\$800",
       speaker: 'Lean Consultant',
       imageUrl: "assets/images/tranning10.jpg",
-      description: "Implement Lean principles in your organization.",
+      description: "Implement Lean principles in your organization. Learn how to eliminate waste, improve flow, and increase efficiency "
+          "using Lean tools and techniques to enhance business processes and achieve operational excellence.",
       user: User(
         name: 'Andrew White',
         image: "assets/images/profile10.jpg",
@@ -167,6 +178,7 @@ class TrainingController extends GetxController {
       ),
     ),
   ].obs;
+
 
   var trainingSort =<TrainingSortModel>[
     TrainingSortModel(title: "Sort by",isSelected: true),
