@@ -155,7 +155,12 @@ class HomePage extends StatelessWidget {
                   final training = controller.filteredTrainings.isEmpty
                       ? controller.trainings[index]
                       : controller.filteredTrainings[index];
-                  return TrainingCard(training: training);
+                  return GestureDetector(
+                      onTap: () {
+                        Get.to(DetailPage(
+                          training: training,
+                        ));
+                      },child: TrainingCard(training: training));
                 },
               );
             }),

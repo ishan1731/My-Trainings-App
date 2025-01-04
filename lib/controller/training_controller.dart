@@ -1,3 +1,4 @@
+import 'package:carousel_slider/carousel_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:my_trainings_app/model/training_sort_model.dart';
@@ -191,6 +192,8 @@ class TrainingController extends GetxController {
   ].obs;
 
 
+  CarouselSliderController carouselSliderController=CarouselSliderController();
+
   TextEditingController locationController = TextEditingController();
   TextEditingController speakerController = TextEditingController();
   TextEditingController userNameController = TextEditingController();
@@ -208,6 +211,13 @@ class TrainingController extends GetxController {
 
   }
 
+
+  void nextCard(){
+    carouselSliderController.nextPage();
+  }
+  void prevCard(){
+    carouselSliderController.previousPage();
+  }
 
   var filteredTrainings = <Training>[].obs;
 
