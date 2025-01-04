@@ -3,15 +3,21 @@
 A Flutter project with APK examples for download.
 
 ## APK Downloads
-- [Download Example 1 APK]([Example 1.apk](apks%2FExample%201.apk))
-- [Download Example 2 APK]([Example 2.apk](apks%2FExample%202.apk))
+- [Download Example APK]([apks](apks))
 
 
-## Screen Recordings
-Check out the app in action through the following screen recordings:
-- [Example 1 Screen Recording]([Record_2025-01-04-22-05-48.mp4](screenshot%2FRecord_2025-01-04-22-05-48.mp4))
-- [Example 2 Screen Recording]([Record_2025-01-04-22-07-26.mp4](screenshot%2FRecord_2025-01-04-22-07-26.mp4))
 
+### Example 1 Screen Recording
+<video width="100%" controls>
+  <source src="./screenshot/Record_2025-01-04-22-05-48.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+### Example 2 Screen Recording
+<video width="100%" controls>
+  <source src="./screenshot/Record_2025-01-04-22-07-26.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 
