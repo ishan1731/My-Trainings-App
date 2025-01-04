@@ -210,7 +210,7 @@ class _FilterSelectionState extends State<FilterSelection> {
                                     onPressed: () {
                                       controller.userNameController.text =
                                           ""; // Clear text
-                                      controller.speakerSearchQuery.value = "";
+                                      controller.userNameSearchQuery.value = "";
                                       FocusScope.of(context)
                                           .unfocus(); // Close the keyboard
                                     },
@@ -223,7 +223,7 @@ class _FilterSelectionState extends State<FilterSelection> {
                             ),
                           ),
                           onChanged: (value) {
-                            controller.speakerSearchQuery.value = value;
+                            controller.userNameSearchQuery.value = value;
                             controller.userNameController.text = value;
                             setState(() {});
                           },

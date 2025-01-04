@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'My Trainings App',
-     // home: HomePageA(),     // its your design
-       home: HomePage(),    // its my side design
+      home: HomePageA(),     // its your design
+     //  home: HomePage(),    // its my side design
       theme: ThemeData(primarySwatch: Colors.red),
     );
   }
